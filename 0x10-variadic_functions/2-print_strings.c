@@ -1,8 +1,6 @@
 #include "variadic_functions.h"
 	#include <stdio.h>
 	#include <stdarg.h>
-
-
 	/**
 	 * print_strings - Prints strings, followed by a new line.
 	 * @separator: The string to be printed between strings.
@@ -43,4 +41,3 @@
 
 		va_end(strings);
 	}
-
